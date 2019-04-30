@@ -10810,7 +10810,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/isomorphic-unfetch/browser.js");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _components_Prices__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Prices */ "./components/Prices.js");
+/* harmony import */ var _components_Prices__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Prices */ "./components/Prices.js");
 
 
 var _jsxFileName = "/Users/phil/dev/next-crash-course/pages/index.js";
@@ -10838,11 +10838,17 @@ var Index = function Index(props) {
       lineNumber: 9
     },
     __self: this
-  }, "Welcome to BitzPrice"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Prices__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    bpi: props.bpi,
+  }, "Welcome to BitzPrice"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
+    },
+    __self: this
+  }, "Check current Bitcoin rate"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Prices__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    bpi: props.bpi,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
     },
     __self: this
   })));

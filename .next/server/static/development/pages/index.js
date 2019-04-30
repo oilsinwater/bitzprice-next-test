@@ -1317,11 +1317,17 @@ var Index = function Index(props) {
       lineNumber: 9
     },
     __self: this
-  }, "Welcome to BitzPrice"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Prices__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    bpi: props.bpi,
+  }, "Welcome to BitzPrice"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
+    },
+    __self: this
+  }, "Check current Bitcoin rate"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Prices__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    bpi: props.bpi,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
     },
     __self: this
   })));
